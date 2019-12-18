@@ -18,7 +18,7 @@ $('.display_question').each(function(){
 
 console.log(`================\njacc's Canvas to Quizlet Exporter\nCopyright (c) 2019 Professional Yadi Krunkers\nOG version by @strix on GitHub\nFor educational use only (literally)\n================`)
 console.log(`================\nAttempt stats:\nCorrect answers: ${rightcounter}\nIncorrect answers: ${wrongcounter}\n================`)
-console.log(`================\nCorrect Questions / Answers ${rights}\n================`)
+console.log(`================\nCorrect Questions / Answers\n\n${rights}\n================`)
 if (wrongcounter > 0) {
-    console.log(`================\nIncorrect Questions / Answers ${wrongs}\n================`)
+    console.log(`================\nIncorrect Questions / Answers\n\n${wrongs}\n================`)
 }
